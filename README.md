@@ -1,4 +1,7 @@
-# Playing with QAOA
+# Opti-maze: playing with QAOA
+
+[![Extended description](https://img.shields.io/badge/-Description-Blue)](assets/iQuHack.pdf)
+[![Slides](https://img.shields.io/badge/-Slides-Blue)](assets/hackathon_mega_presentation.pdf)
 
 <p align="left">
   <a href="https://azure.microsoft.com/en-us/solutions/quantum-computing/" target="_blank"><img src="https://user-images.githubusercontent.com/10100490/151488491-609828a4-cd1f-4076-b5b2-a8d9fc2d0fa4.png" width="30%"/> </a>
@@ -7,6 +10,17 @@
 </p>
 
 This repo contains our solutions to IonQ + Microsoft Joint Challenge @ MIT iQuHACK 2022.
+
+High-dimensional optimization problems with exponentially large search space lie
+in the foundation of many yet unresolved scientific problems or pressing issues
+that the world society is currently facing. During the MIT iQuHACK 2022
+hackathon, we developed the *Opti-maze* game aimed at increasing awareness of
+complexity of such problems. In this game, a player either competes with or is
+being assisted by the Quantum Approximate Optimization Algorithm which can run
+on a near-term noisy quantum device. The game showcases (1) how quantum
+advantage can be beneficial to researchers and the general public and (2) how
+even a near-term noisy quantum device can be used to tackle large-scale
+optimization problems.
 
 ## Opti-Maze game
 
@@ -39,17 +53,21 @@ will make the users aware of non-triviality of resource allocation problems
 including fighting the climate crisis.
 
 ... Interested? Read more [here](assets/iQuHack.pdf) or have a look at
-[our slides](assets/hackaton_mega_presentation.pdf) .
+[our slides](assets/hackathon_mega_presentation.pdf) .
 
 
 ### Starting the game
 
 **Q:** I have qiskit & access to IonQ, how to I play your game on real
 hardware?<br>
-**A:** In this case you can run the simulator in the cells 1-2 of 
-```
-QAOA_Azure_part.ipynb
-```
+**A:** Unfortunately, due to time constraints and long queues for running code
+with IonQ backend, we prototype the main core of our game using the Aer qiskit
+simulator. IonQ backend has been used for training an instance of QAOA via
+simulation and to run few instances of the final circuit with qpu. These test
+have been performed in the “QAOA_Azure_part.ipynb” notebook, while the main game
+is currently in “QAOA_part.ipynb”. Luckily, with some more qpu-time at disposal,
+we would have set up the whole process on real quantum hardware from training to
+evaluation.
 
 **Q**: I have qiskit, but no access to IonQ, what do I do then?<br>
 **A:** In this case you can run the simulator in the cells 1-2 of 
@@ -89,7 +107,7 @@ more about quantum computing, how to work as a team, and tackle a fast-paced
 project. We were a team of 5 people that didn’t know each other beforehand, but
 by a complete coincidence it turned out that most of us were actually working in
 the same town! For us the most exciting part was getting our game to work and
-then successfully running it on an actual quantum device. This event ended up
+then successfully running it on an actual quantum device. Only slightly negative point of the experience has been on the long queuing times for accessing both the simulator and the real qpu of the ionq backend. However, this event ended up
 being a perfect way to learn more about quantum computing, meet motivated,
 like-minded people that we could collaborate with in the future.
 
