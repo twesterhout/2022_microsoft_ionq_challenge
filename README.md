@@ -104,7 +104,7 @@ more about quantum computing, how to work as a team, and tackle a fast-paced
 project. We were a team of 5 people that didn’t know each other beforehand, but
 by a complete coincidence it turned out that most of us were actually working in
 the same town! For us the most exciting part was getting our game to work and
-then successfully running it on an actual quantum device. This event ended up
+then successfully running it on an actual quantum device. Only slightly negative point of the experience has been on the long queuing times for accessing both the simulator and the real qpu of the ionq backend. However, this event ended up
 being a perfect way to learn more about quantum computing, meet motivated,
 like-minded people that we could collaborate with in the future.
 
