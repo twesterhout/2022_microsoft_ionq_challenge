@@ -1,50 +1,44 @@
-# Welcome to IonQ + Microsoft Joint Challenge @ MIT iQuHACK 2022!
+# Playing with QAOA
 
 <p align="left">
   <a href="https://azure.microsoft.com/en-us/solutions/quantum-computing/" target="_blank"><img src="https://user-images.githubusercontent.com/10100490/151488491-609828a4-cd1f-4076-b5b2-a8d9fc2d0fa4.png" width="30%"/> </a>
   <a href="https://ionq.com/" target="_blank"><img src="https://user-images.githubusercontent.com/10100490/151488159-da95eb05-9277-4abe-b1ba-b49871d563ed.svg" width="20%" style="padding: 1%;padding-left: 5%"/></a>
   <a href="https://iquhack.mit.edu/" target="_blank"><img src="https://user-images.githubusercontent.com/10100490/151647370-d161d5b5-119c-4db9-898e-cfb1745a8310.png" width="8%" style="padding-left: 5%"/> </a>
-  
 </p>
 
+This repo contains our solutions to IonQ + Microsoft Joint Challenge @ MIT iQuHACK 2022.
 
-Quantum computing has many exciting applications in chemistry, machine learning, and optimization – but we've only scratched the surface of the possibilities as a civilization, just like classical computing in the 1950s. We hope you all go on to do quantum algorithms research that will revolutionize every aspect of society for the better!
+## Opti-Maze game
 
-Today, though, we've got just 26 hours, and we'd like you to use a quantum computer to build a game, or a component of a game.
+Quantum computers promise to deliver an exponential speed up to various problems
+that are hard on the classical counterpart. One such class of problems is
+combinatorial optimization. To solve this type of problems classically, one is
+generally required to explore all possible configurations, which is in general
+exponentially hard in the number of degrees of freedom. On a quantum computer,
+the famous Quantum Approximate Optimization Algorithm (QAOA) promises possible
+ease of this complexity. During this hackathon, we have created a game that is
+aimed at helping to understand the challenges of the optimization problems and
+the benefits that quantum computing can offer. Many popular computer games, from
+the historical Monopoly to more advanced civilization games like Sid Mayer's
+Civilization, are based on the difficulty in finding optimal solutions to a
+resource allocation problem. Generally, the game is aimed to optimize a metric
+on a graph and has two game regimes: *standard* and *cooperative*. In
+the former, player is challenged by a *Quantum Artificial Player* which
+uses the QAOA to tackle the resource allocation problem. In the latter, quantum
+computer *helps* the player to solve an hard optimization problem. 
 
-The possibilities should feel as big as the ones offered by your regular computer! A few ideas to juice your thinking:
-* Use a quantum computer as a random number generator or noise source for
-  - seeding behaviors
-  - procedurally generating maps or music
-* Use quantum logic itself as a gaming mechanism, whether for fun or education
-* Apply Quantum Machine Learning to gameplay
-* [Run Doom... on the universe?](https://www.smbc-comics.com/comic/qc)
+Many challenges that the humanity is currently facing can be formulated in terms
+of a resource allocation problem. One of such challenges is the *fight against
+the climate change*. Even though our game is ran on an arbitrary graph, we
+specifically tailored one special case that illustrated applicability of QAOA to
+tackling this pressing issue.
 
-You’ll be able to test your projects on a real ion trap quantum computer provided by IonQ (which [shoots lasers at individual atoms to compute](https://ionq.com/technology)).
-*Remember that current devices are still NISQ, and noise can overtake the computation really fast. We recommend you experiment with circuits that use under a few dozen two-qubit gates.*
+In part, the game would educate quantum novices on possible usages and
+applications of *variational quantum algorithms*. At the same time, it
+will make the users aware of non-triviality of resource allocation problems
+including fighting the climate crisis.
 
-You can develop your project using any language supported by Azure Quantum: Q#, Qiskit, or Cirq.
-
-## Using Azure Quantum
-You should have received an invite to join quantum workspace https://portal.azure.com/52f51314-00bb-49b7-a28d-0b0a4be6d1c9. Join it, and use that workspace’s information to connect to Azure from the environment you’re using to work with the QDK:
-* Subscription ID: b1d7f7f8-743f-458e-b3a0-3e09734d716d
-* Resource group: aq-hackathons
-* Workspace name: aq-hackathon-01
-* Location: eastus
-
-You can use it from Python by using the `azure-quantum` package as follows:
-
-```python
-from azure.quantum import Workspace
-workspace = Workspace (
-    subscription_id = "b1d7f7f8-743f-458e-b3a0-3e09734d716d",
-    resource_group = "aq-hackathons",
-    name = "aq-hackathon-01",
-    location = "eastus"
-)
-```
-
-Don't wait until the last moment to submit your programs! IonQ systems operate on a queue system. If you submit a program, it may take a few hours to complete. If you want to make sure you get your results back by Sunday morning, make sure to submit them by the end of day on Saturday.
+... Interested? Read more [here](paper.pdf).
 
 ## Submitting your projects
 To submit your solutions:
