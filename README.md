@@ -8,6 +8,17 @@
 
 This repo contains our solutions to IonQ + Microsoft Joint Challenge @ MIT iQuHACK 2022.
 
+High-dimensional optimization problems with exponentially large search space lie
+in the foundation of many yet unresolved scientific problems or pressing issues
+that the world society is currently facing. During the MIT iQuHACK 2022
+hackaton, we developed the *Opti-maze* game aimed at increasing awareness of
+complexity of such problems. In this game, a player either competes with or is
+being assisted by the Quantum Approximate Optimization Algorithm which can run
+on a near-term noisy quantum device. The game showcases (1) how quantum
+advantage can be beneficial to researchers and the general public and (2) how
+even a near-term noisy quantum device can be used to tackle large-scale
+optimization problems.
+
 ## Opti-Maze game
 
 Quantum computers promise to deliver an exponential speed up to various problems
