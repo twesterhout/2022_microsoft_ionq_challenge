@@ -42,7 +42,7 @@ including fighting the climate crisis.
 [our slides](assets/hackaton_mega_presentation.pdf) .
 
 
-### Playing the game
+### Starting the game
 
 **Q:** I have qiskit & access to IonQ, how to I play your game on real
 hardware?<br>
@@ -68,9 +68,15 @@ Then have a look at [our slides](assets/hackathon_mega_presentation.pdf)
 which contain screencasts of us playing the game.
 
 
-#### Available commands in Standard mode
+### Available commands in Standard mode
 
-In standard mode you can either type a number:
+* Typing a number will select/deselect a component
+* Typing `cheat` will show you the QAOA solution.
+
+### Available commands in Cooperative mode
+
+* Typing a number will select/deselect a component
+* Typing `solve 0, 1, 3` will run QAOA on a sub-problem defined by regions 0, 1, and 3.
 
 ## Our experience at MIT iQuHack 2022
 
