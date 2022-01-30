@@ -1,5 +1,8 @@
 # Playing with QAOA
 
+[![Extended description](https://img.shields.io/badge/-Description-Blue)](assets/iQuHack.pdf)
+[![Slides](https://img.shields.io/badge/-Slides-Blue)](assets/hackathon_mega_presentation.pdf)
+
 <p align="left">
   <a href="https://azure.microsoft.com/en-us/solutions/quantum-computing/" target="_blank"><img src="https://user-images.githubusercontent.com/10100490/151488491-609828a4-cd1f-4076-b5b2-a8d9fc2d0fa4.png" width="30%"/> </a>
   <a href="https://ionq.com/" target="_blank"><img src="https://user-images.githubusercontent.com/10100490/151488159-da95eb05-9277-4abe-b1ba-b49871d563ed.svg" width="20%" style="padding: 1%;padding-left: 5%"/></a>
@@ -11,7 +14,7 @@ This repo contains our solutions to IonQ + Microsoft Joint Challenge @ MIT iQuHA
 High-dimensional optimization problems with exponentially large search space lie
 in the foundation of many yet unresolved scientific problems or pressing issues
 that the world society is currently facing. During the MIT iQuHACK 2022
-hackaton, we developed the *Opti-maze* game aimed at increasing awareness of
+hackathon, we developed the *Opti-maze* game aimed at increasing awareness of
 complexity of such problems. In this game, a player either competes with or is
 being assisted by the Quantum Approximate Optimization Algorithm which can run
 on a near-term noisy quantum device. The game showcases (1) how quantum
@@ -50,7 +53,7 @@ will make the users aware of non-triviality of resource allocation problems
 including fighting the climate crisis.
 
 ... Interested? Read more [here](assets/iQuHack.pdf) or have a look at
-[our slides](assets/hackaton_mega_presentation.pdf) .
+[our slides](assets/hackathon_mega_presentation.pdf) .
 
 
 ### Starting the game
