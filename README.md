@@ -64,6 +64,10 @@ QAOA_part.ipynb
 python3 main_loop.py
 ```
 
+**NOTE:** this mode is discouraged, because the QAOA is replaced by a
+brute-force approach. Things will still work, but you won't get a feeling for
+how good/bad QAOA is.
+
 Then have a look at [our slides](assets/hackathon_mega_presentation.pdf)
 which contain screencasts of us playing the game.
 
