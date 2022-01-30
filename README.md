@@ -39,7 +39,7 @@ will make the users aware of non-triviality of resource allocation problems
 including fighting the climate crisis.
 
 ... Interested? Read more [here](assets/iQuHack.pdf) or have a look at
-[our slides](assets/hackaton mega presentation.pdf).
+[our slides](assets/hackaton_mega_presentation.pdf) .
 
 
 ### Playing the game
@@ -58,7 +58,7 @@ hardware?<br>
 python3 main_loop.py
 ```
 
-Then have a look at [our slides](assets/hackathon mega presentation.pdf)
+Then have a look at [our slides](assets/hackathon_mega_presentation.pdf)
 which contain screencasts of us playing the game.
 
 
