@@ -57,10 +57,14 @@ including fighting the climate crisis.
 
 **Q:** I have qiskit & access to IonQ, how to I play your game on real
 hardware?<br>
-**A:** In this case you can run the simulator in the cells 1-2 of 
-```
-QAOA_Azure_part.ipynb
-```
+**A:** Unfortunately, due to time constraints and long queues for running code
+with IonQ backend, we prototype the main core of our game using the Aer qiskit
+simulator. IonQ backend has been used for training an instance of QAOA via
+simulation and to run few instances of the final circuit with qpu. These test
+have been performed in the “QAOA_Azure_part.ipynb” notebook, while the main game
+is currently in “QAOA_part.ipynb”. Luckily, with some more qpu-time at disposal,
+we would have set up the whole process on real quantum hardware from training to
+evaluation.
 
 **Q**: I have qiskit, but no access to IonQ, what do I do then?<br>
 **A:** In this case you can run the simulator in the cells 1-2 of 
