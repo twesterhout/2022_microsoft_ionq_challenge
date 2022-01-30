@@ -80,3 +80,15 @@ For this Hackathon, you have several options of setting up the QDK:
 * Microsoft Learn learing path ["Quantum computing foundations"](https://docs.microsoft.com/learn/paths/quantum-computing-fundamentals/).
 * [Q# developer blog](https://devblogs.microsoft.com/qsharp/).
 * Azure Fridays episode [Quantum programming with Q# and running on hardware with Azure Quantum](https://www.youtube.com/watch?v=c9Df90CVHkc) shows the end-to-end quantum software development process with the QDK tools.
+
+## Our experience at QuHack 2022
+
+The QuHACK 2022 was an amazing experience for the team. It allowed us to learn
+more about quantum computing, how to work as a team, and tackle a fast-paced
+project.  We were a team of 5 people that didn’t know each other beforehand, but
+by a complete coincidence it turned out that most of us were actually working in
+the same town! For us the most exciting part was getting our game to work and
+then successfully running it on an actual quantum device. This event ended up
+being a perfect way to learn more about quantum computing, meet motivated,
+like-minded people that we could collaborate with in the future.
+
