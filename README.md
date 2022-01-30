@@ -46,10 +46,16 @@ including fighting the climate crisis.
 
 **Q:** I have qiskit & access to IonQ, how to I play your game on real
 hardware?<br>
-**A:**
+**A:** In this case you can run the simulator in the cells 1-2 of 
+```
+QAOA_Azure_part.ipynb
+```
 
 **Q**: I have qiskit, but no access to IonQ, what do I do then?<br>
-**A:**
+**A:** In this case you can run the simulator in the cells 1-2 of 
+```
+QAOA_part.ipynb
+```
 
 **Q**: I have neither qiskit nor access to IonQ... am I screwed?<br>
 **A:** No, you are not. You can run the game locally by simply typing
