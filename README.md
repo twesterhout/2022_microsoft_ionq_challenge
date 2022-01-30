@@ -44,8 +44,29 @@ including fighting the climate crisis.
 
 ### Playing the game
 
+**Q:** I have qiskit & access to IonQ, how to I play your game on real hardware?
+**A:**
+
+**Q**: I have qiskit, but no access to IonQ, what do I do then?
+**A:**
+
+**Q**: I have neither qiskit nor access to IonQ... am I screwed?
+**A:** No, you are not. You can run the game locally by simply typing
+
+   ~~~~~~~~~bash
+   python3 main_loop.py
+   ~~~~~~~~
+
+   Then have a look at [our slides](assets/hackathon mega presentation.pdf)
+   which contain screencasts of us playing the game.
 
 
+#### Available commands in Standard mode
+
+In standard mode you can either type a number:
+
+```
+```
 
 
 ## Our experience at MIT iQuHack 2022
